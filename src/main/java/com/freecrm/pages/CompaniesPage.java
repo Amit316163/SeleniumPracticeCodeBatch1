@@ -32,7 +32,7 @@ public class CompaniesPage extends BaseClass {
 	@FindBy(xpath = "(//td[@class='tabs_header'])[1]")
 	WebElement companyName;
 	
-	@FindBy(xpath = "(//form[@id='companyForm' ]//input[@value='Save1'])[1]")
+	@FindBy(xpath = "(//form[@id='companyForm' ]//input[@value='Save'])[1]")
 	WebElement btnSave;
 	
 	
